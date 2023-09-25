@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/bbe3fef533.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/cl.png" alt="cl" class="cl">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#works">Offers</a></li>
+                    <li><a href="#portfolio">Works</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Welcome to <span class="highlighted-text">Fruits</span></p>
+            </div>
+            
+        </div>
+    </div>
+  <!----------------------------------------about--------------------------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/me.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About <span class="highlighted-text">Me</span></h1>
+                <P>Hi, I'm Clarieza Bautista, but you can call me Claire. I'm currently pursuing a programming and business course. In addition to working towards becoming a skilled web developer, I also aspire to excel as a digital artist and graphic designer.
+                </P>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span class="highlighted-text">Graphic Design</span><br>Adobe Illustrator<br>Canva</li>
+                        <li><span class="highlighted-text">Digital Art</span><br>Ibispaintx<br>Medibang</li>
+                    </ul>
+                    
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span class="highlighted-text">Web Design</span><br>Studied HTML, CSS, & JS<br>Built a project and portfolio website</li>
+                    <li><span class="highlighted-text">Digital Design</span><br>Digital Artist since 2020<br>With 20 pieces of digital art<br>BOLTUP Digital Artist</li>
+
+                </ul>
+        </div>
+        <div class="tab-contents" id="education">
+            <ul>
+                <li><span class="highlighted-text">Senior High School</span><br>Mobile Application and Web Development at STI College</li>
+                <li><span class="highlighted-text">College</span><br>BS Information System at TUP Manila</li>
+
+            </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------------------------------------WORKS---------------------->
+<div id="works">
+    <div class="container">
+        <h1 class="sub-title">What I Can <span class="highlighted-text">Offer</span></h1>
+        <div class="works-list">
+            <div>
+                <i class="fa-solid fa-palette"></i>
+                <h2>Digital Portrait</h2>
+                <p>Discover the beauty of modern art in every pixel. 🌟 Elevate your memories and emotions through the art of digital portraiture.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-pen"></i>
+                <h2>Graphic Designing</h2>
+                <p>Unlock the power of visual storytelling with my graphic design expertise. I craft compelling visuals that not only capture attention but also convey your brand's unique narrative. 🔥</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Web designing isn't just a job, it's my love affair with creativity and innovation. 💻</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------------------------------------Portfolio------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My <span class="highlighted-text">Works</span></h1>
+        <div class="design-list">
+            <div class="design">
+                <img src="images/work1.png">
+                <div class="layer">
+                    <h3>Digital Art</h3>
+                    <p>Art Name: Zephyr <br>"gentle breeze" or "west wind"</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="design">
+                <img src="images/works6.png">
+                <div class="layer">
+                    <h3>Digital Art</h3>
+                    <p>Art Name: Malina <br>"wrath" or "anger"</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="design">
+                <img src="images/work4.png">
+                <div class="layer">
+                    <h3>Digital Art</h3>
+                    <p>Art Name: Seraphina <br> from "seraphim," meaning "fiery ones" or "angels"</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="design">
+                <img src="images/work2.png">
+                <div class="layer">
+                    <h3>Digital Art</h3>
+                    <p>Art Name: Paloma <br>"dove" or "peace"</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="design">
+                <img src="images/works5.png">
+                <div class="layer">
+                    <h3>Digital Art</h3>
+                    <p>Art Name: Valencia <br> "brave" or "strong."</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+             <div class="design">
+                <img src="images/work3.png">
+                <div class="layer">
+                    <h3>Digital Art</h3>
+                    <p>Art Name: Caoimhe <br>"beautiful, gentle, or precious"</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#"class="btn">See more</a>
+    </div>
+</div>
+<!-----------------------------------------------Contacts------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"><span class="highlighted-text contact-word">Contact</span> Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>clarieza.bautista@tup.edu.ph</p>
+                <p><i class="fa-solid fa-phone"></i>0921987654</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/itsxloki?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.tiktok.com/@themischiefloki"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://instagram.com/itsxlokiii?igshid=NzZlODBkYWE4Ng="><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+                <a href="images/My Portfolio.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <div class="form-group">
+                       
+                        <input type="text" id="Name" name="Name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+            
+                        <input type="email" id="Email" name="Email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        
+                        <textarea id="Message" name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="fruits">
+        <p>Copyright © Clarieza Bautista 2023 All Rights Reserve <br>Thank you for visiting Fruits! <i class="fa-solid fa-apple-whole"></i></p>
+
+    </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname) {
+    for (var tablink of tablinks) {
+        tablink.classList.remove("active-link");
+    }
+    for (var tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxBsR1LDj_xZAgACGQhymbGITdefYC75v3jQPJwSIIVuPdnQ1L36241H7p5PNDxPzrLrA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+form.addEventListener('submit', e => {
+    e.preventDefault();
+    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => {
+            // Modify the color of the "Message sent!" text here
+            msg.innerHTML = "<span style='color: black;'>Message sent! I'll check it immediately.</span>";
+
+            setTimeout(function () {
+                msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+        })
+        .catch(error => console.error('Error!', error.message));
+});
+
+  </script>
+
+</body>
+</html>
